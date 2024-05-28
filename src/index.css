@@ -2,28 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.drag-container {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  margin: auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.drag-item {
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-
-.drag-handle {
-  margin-right: 10px;
-}
-
